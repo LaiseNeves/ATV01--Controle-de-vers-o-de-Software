@@ -1,6 +1,8 @@
 # ATV01--Controle-de-vers-o-de-Software
 Atividade prática de controle de versão de softaware.
 
+***O código da funcionalidade simples foi testado e desenvolvido na plataforma: https://codepen.io/pen***
+
 **1) Configuração do Projeto:**
 
 - Crie um repositório Git para o projeto. ✅ 
@@ -31,4 +33,4 @@ Atividade prática de controle de versão de softaware.
   
 - Crie uma nova versão corrigindo o bug, incrementando o patch na versão (por exemplo, de 1.0.0 para 1.0.1).
 
-
+***O código foi testado e desenvolvido na plataforma: https://codepen.io/pen***

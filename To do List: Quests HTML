@@ -1,4 +1,4 @@
-git tag -a v0.1.7 -m "Versão 0.1.7: Ajuste de cores e melhorias no design do layout"
+git tag -a v0.1.8 -m "Versão 0.1.8: Ajuste do alinhamento de center para left"
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -9,7 +9,7 @@ git tag -a v0.1.7 -m "Versão 0.1.7: Ajuste de cores e melhorias no design do la
     <style>
         body {
             font-family: Courier New, sans-serif;
-            text-align: center;
+            text-align: left;
             margin: 20px;
             background-color: #D8BFD8; /* Lilás pastel */
         }

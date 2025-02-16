@@ -3,6 +3,7 @@ Atividade prática de controle de versão de softaware.
 
 ***O código da funcionalidade simples foi testado e desenvolvido na plataforma: https://codepen.io/pen***
 
+
 **1) Configuração do Projeto:**
 
 - Crie um repositório Git para o projeto. ✅ 

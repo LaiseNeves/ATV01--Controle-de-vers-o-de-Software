@@ -1,4 +1,4 @@
-// primeiro commit com a versão inicial (0.1.0) 
+// segundo commit com a versão inicial (0.1.1) 
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -8,7 +8,7 @@
     <title>To-Do List</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Courier New, sans-serif;
             text-align: center;
             margin: 20px;
         }
@@ -37,8 +37,8 @@
 </head>
 <body>
 
-    <h2>Lista de Tarefas</h2>
-    <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+    <h2>Quests</h2>
+    <input type="text" id="taskInput" placeholder="Digite uma Quest">
     <button onclick="addTask()">Adicionar</button>
 
     <ul id="taskList"></ul>

@@ -1,4 +1,5 @@
-git tag -a v0.1.8 -m "Versão 0.1.8: Ajuste do alinhamento de center para left"
+# git tag -a v0.1.8 -m "Versão 0.1.8: Ajuste do alinhamento de center para left"
+
 
 <!DOCTYPE html>
 <html lang="pt">

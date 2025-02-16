@@ -1,4 +1,4 @@
-/* quarto commit com a versão  (0.1.3) */
+/* quinto commit com a versão  (0.1.4) */
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -11,14 +11,14 @@
             font-family: Courier New, sans-serif;
             text-align: center;
             margin: 20px;
-            background-color: #FDFD96; /* Fundo amarelo pastel */
+            background-color: #A7C7E7; /* Azul pastel */ 
         }
         #taskList {
             list-style: none;
             padding: 0;
         }
         li {
-            background: #A7C7E7; /* Azul pastel */
+            background: #FDFD96; /* Fundo amarelo pastel */
             padding: 10px;
             margin: 5px;
             display: flex;

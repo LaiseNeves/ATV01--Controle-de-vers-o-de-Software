@@ -5,7 +5,7 @@ Atividade prática de controle de versão de softaware.
 
 - Crie um repositório Git para o projeto. ✅ 
 
-- *Link repositório:* 
+🦉*Link repositório:* 
 
 - Defina um README.md inicial que descreva o projeto. ✅ 
 
@@ -15,7 +15,7 @@ Atividade prática de controle de versão de softaware.
 **2) Implementação de Funcionalidades:**
 -Desenvolva uma funcionalidade simples (...)  ✅
 
-*Lista de afazeres: Quests*  ✅
+🦉*Lista de afazeres: Quests*  ✅
 
 - Realize *commits* frequentes a cada etapa de desenvolvimento, seguindo boas práticas de mensagens de *commit* (escrevendo **mensagens claras e descritivas).**
 
@@ -23,7 +23,7 @@ Atividade prática de controle de versão de softaware.
 
 - A cada implementação significativa (por exemplo, quando uma nova funcionalidade é adicionada), crie uma tag no repositório utilizando a convenção de versionamento semântico.(MAJOR.MINOR.PATCH).
 
-*Justifique a escolha da numeração da versão de acordo com as alterações feitas (incremento de versão major, minor ou patch).*
+🦉*Justifique a escolha da numeração da versão de acordo com as alterações feitas (incremento de versão major, minor ou patch).*
 
 **5) Simulação de Bug Fix:**
 

@@ -17,7 +17,7 @@ Atividade prática de controle de versão de softaware.
 
 *Lista de afazeres: Quests*  ✅
 
-- Realize *commits* frequentes a cada etapa de desenvolvimento, seguindo boas práticas de mensagens de *commit* (escrevendo **mensagens claras e descritivas).**
+- Realize *commits* frequentes a cada etapa de desenvolvimento, seguindo boas práticas de mensagens de *commit* (escrevendo **mensagens claras e descritivas).** ✅
 
 **4) Controle por Numeração e Tags:**
 

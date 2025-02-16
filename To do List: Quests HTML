@@ -1,4 +1,4 @@
-/* quinto commit com a versão  (0.1.4) */
+git tag -a v0.1.7 -m "Versão 0.1.7: Ajuste de cores e melhorias no design do layout"
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -11,14 +11,14 @@
             font-family: Courier New, sans-serif;
             text-align: center;
             margin: 20px;
-            background-color: #A7C7E7; /* Azul pastel */ 
+            background-color: #D8BFD8; /* Lilás pastel */
         }
         #taskList {
             list-style: none;
             padding: 0;
         }
         li {
-            background: #FDFD96; /* Fundo amarelo pastel */
+            background: #FFFACD; /* Amarelo pastel claro */
             padding: 10px;
             margin: 5px;
             display: flex;
@@ -38,8 +38,8 @@
 </head>
 <body>
 
-    <h2>Lista de Tarefas</h2>
-    <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+    <h2>Quests</h2>
+    <input type="text" id="taskInput" placeholder="Digite uma quest">
     <button onclick="addTask()">Adicionar</button>
 
     <ul id="taskList"></ul>

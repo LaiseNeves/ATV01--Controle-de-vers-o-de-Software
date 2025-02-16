@@ -2,6 +2,7 @@
 Atividade prática de controle de versão de softaware.
 
 **1) Configuração do Projeto:**
+
 -**Crie um repositório Git para o projeto.** ✅ 
 
 Link: 

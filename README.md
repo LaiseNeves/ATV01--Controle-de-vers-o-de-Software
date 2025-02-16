@@ -5,7 +5,7 @@ Atividade prática de controle de versão de softaware.
 
 - Crie um repositório Git para o projeto. ✅ 
 
-*Link repositório:* 
+*Link repositório:* https://github.com/LaiseNeves/ATV01--Controle-de-vers-o-de-Software.git 
 
 - Defina um README.md inicial que descreva o projeto. ✅ 
 

@@ -3,13 +3,13 @@ Atividade prática de controle de versão de softaware.
 
 **1) Configuração do Projeto:**
 **•Crie um repositório Git para o projeto.** ✅ 
-(Link: 
+Link: 
 **•Defina um README.md inicial que descreva o projeto.** ✅ 
 •**Realize o primeiro commit com a versão inicial (0.1.0).**  
 
 **2) Implementação de Funcionalidades:**
 **•Desenvolva uma funcionalidade simples (...)**
-(Lista de afazeres)
+Lista de afazeres:
 •**Realize commits frequentes a cada etapa de desenvolvimento, seguindo boas práticas de mensagens de commit (escrevendo mensagens claras e descritivas).**
 
 **4) Controle por Numeração e Tags:**

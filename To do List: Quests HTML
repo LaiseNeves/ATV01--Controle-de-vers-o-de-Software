@@ -1,4 +1,4 @@
-// terceiro commit com a versão  (0.1.2) 
+/* quarto commit com a versão  (0.1.3) */
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -11,13 +11,14 @@
             font-family: Courier New, sans-serif;
             text-align: center;
             margin: 20px;
+            background-color: #FDFD96; /* Fundo amarelo pastel */
         }
         #taskList {
             list-style: none;
             padding: 0;
         }
         li {
-            background: #f3f3f3;
+            background: #A7C7E7; /* Azul pastel */
             padding: 10px;
             margin: 5px;
             display: flex;
@@ -37,8 +38,8 @@
 </head>
 <body>
 
-    <h2>Quests</h2>
-    <input type="text" id="taskInput" placeholder="Digite uma Quest">
+    <h2>Lista de Tarefas</h2>
+    <input type="text" id="taskInput" placeholder="Digite uma tarefa">
     <button onclick="addTask()">Adicionar</button>
 
     <ul id="taskList"></ul>

@@ -1,4 +1,4 @@
-# git tag -a v1.12.1 -m "Versão 1.12.1: Salvar tarefas do localStorage"
+# git tag -a v1.12.1 -m "Versão 1.12.1: Salvar tarefas no localStorage"
 
 
 <!DOCTYPE html>

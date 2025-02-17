@@ -1,4 +1,4 @@
-# git tag -a v1.11.1 -m "Versão 1.11.1: Correção de erro e bug"
+# git tag -a v1.12.1 -m "Versão 1.12.1: Salvar tarefas do localStorage"
 
 
 <!DOCTYPE html>
@@ -46,28 +46,62 @@
     <ul id="taskList"></ul>
 
     <script>
+        document.addEventListener("DOMContentLoaded", loadTasks);
+
         function addTask() {
             let input = document.getElementById("taskInput");
             let taskText = input.value.trim();
-            
+
             if (taskText === "") return;
 
-            let li = document.createElement("li");
-            li.innerHTML = `
-                <span onclick="toggleTask(this)">${taskText}</span>
-                <button onclick="removeTask(this)">❌</button>
-            `;
+            let task = { text: taskText, completed: false };
+            let tasks = getTasks();
+            tasks.push(task);
+            saveTasks(tasks);
+            renderTasks();
 
-            document.getElementById("taskList").appendChild(li);
             input.value = "";
         }
 
-        function toggleTask(task) {
-            task.classList.toggle("done");
+        function toggleTask(index) {
+            let tasks = getTasks();
+            tasks[index].completed = !tasks[index].completed;
+            saveTasks(tasks);
+            renderTasks();
         }
 
-        function removeTask(button) {
-            button.parentElement.remove();
+        function removeTask(index) {
+            let tasks = getTasks();
+            tasks.splice(index, 1);
+            saveTasks(tasks);
+            renderTasks();
+        }
+
+        function saveTasks(tasks) {
+            localStorage.setItem("tasks", JSON.stringify(tasks));
+        }
+
+        function getTasks() {
+            return JSON.parse(localStorage.getItem("tasks")) || [];
+        }
+
+        function renderTasks() {
+            let taskList = document.getElementById("taskList");
+            taskList.innerHTML = "";
+
+            let tasks = getTasks();
+            tasks.forEach((task, index) => {
+                let li = document.createElement("li");
+                li.innerHTML = `
+                    <span class="${task.completed ? 'done' : ''}" onclick="toggleTask(${index})">${task.text}</span>
+                    <button onclick="removeTask(${index})">❌</button>
+                `;
+                taskList.appendChild(li);
+            });
+        }
+
+        function loadTasks() {
+            renderTasks();
         }
     </script>
 

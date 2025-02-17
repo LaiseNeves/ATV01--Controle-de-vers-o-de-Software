@@ -29,7 +29,7 @@ Atividade prática de controle de versão de softaware.
 
 *Justifique a escolha da numeração da versão de acordo com as alterações feitas (incremento de versão major, minor ou patch).* 
 
-**Resposta:** *Comecei com a numeração de controle 0.1.0 e as versões seguintes 1.2.0 em diante até chegar ao 1.11.0* 
+**Resposta:** *Comecei com a numeração de controle 0.1.0 e as versões seguintes 1.2.0 em diante até chegar ao 1.12.1* 
 
 
 

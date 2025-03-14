@@ -23,7 +23,7 @@ Atividade prática de controle de versão de softaware.
 
 - Realize *commits* frequentes a cada etapa de desenvolvimento, seguindo boas práticas de mensagens de *commit* (escrevendo **mensagens claras e descritivas).** ✅
 
-**4) Controle por Numeração e Tags:**
+**3) Controle por Numeração e Tags:**
 
 - A cada implementação significativa (por exemplo, quando uma nova funcionalidade é adicionada), crie uma tag no repositório utilizando a convenção de versionamento semântico.(MAJOR.MINOR.PATCH).  
 
@@ -32,7 +32,7 @@ Atividade prática de controle de versão de softaware.
 
 
 
-**5) Simulação de Bug Fix:**
+**4) Simulação de Bug Fix:**
 
 - Introduza um bug simples no código propositalmente.  ✅ 
   
